@@ -12,3 +12,9 @@ def validate_data(df):
     Validación básica del dataset
     """
     return not df.empty
+
+def get_basic_info(df):
+    """
+    Retorna información básica del dataset
+    """
+    return df.describe()
